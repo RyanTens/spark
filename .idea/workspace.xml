@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1b7758ec-fa92-49bf-a53c-cff792bc1bcb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spark" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+        <option value="Package Object" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\developer_tools\repository" />
+        <option name="mavenHome" value="D:/developer_tools/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\developer_tools\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1W0dbY2sBDvAacn11SDwiBVPglz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CODE\idea_workspace\spark\spark-core-project\src\main\resources" />
+      <recent name="E:\CODE\idea_workspace\spark\spark-core\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tens.spark.accumulator" />
+      <recent name="com.tens.spark.rdd3" />
+      <recent name="com.tens.spark.rdd2" />
+      <recent name="com.tens.spark.rdd" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CODE\idea_workspace\spark\spark-core\src\main\resources" />
+      <recent name="E:\CODE\idea_workspace\spark\spark-core\src\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AccDemo3">
+    <configuration name="AccDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.tens.spark.accumulator.AccDemo" />
+      <module name="spark-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tens.spark.accumulator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccDemo2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.tens.spark.accumulator.AccDemo2" />
+      <module name="spark-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tens.spark.accumulator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccDemo3" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.tens.spark.accumulator.AccDemo3" />
+      <module name="spark-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tens.spark.accumulator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateRDD" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.tens.spark.rdd.CreateRDD" />
+      <module name="spark-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tens.spark.rdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.tens.project.app.ProjectApp" />
+      <module name="spark-core-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tens.project.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AccDemo3" />
+        <item itemvalue="Application.AccDemo2" />
+        <item itemvalue="Application.AccDemo" />
+        <item itemvalue="Application.ProjectApp" />
+        <item itemvalue="Application.CreateRDD" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b7758ec-fa92-49bf-a53c-cff792bc1bcb" name="Default Changelist" comment="" />
+      <created>1578290517872</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578290517872</updated>
+      <workItem from="1578290520428" duration="1390000" />
+      <workItem from="1578295906240" duration="2872000" />
+      <workItem from="1578301303710" duration="8770000" />
+      <workItem from="1578322982956" duration="1452000" />
+      <workItem from="1578360422000" duration="6243000" />
+      <workItem from="1578368609422" duration="163000" />
+      <workItem from="1578368847323" duration="120000" />
+      <workItem from="1578368994259" duration="295000" />
+      <workItem from="1578376115660" duration="418000" />
+      <workItem from="1578376547282" duration="1436000" />
+      <workItem from="1578378089454" duration="4843000" />
+      <workItem from="1578384418916" duration="32000" />
+      <workItem from="1578384468506" duration="59000" />
+      <workItem from="1578384547247" duration="15000" />
+      <workItem from="1578384573635" duration="367000" />
+      <workItem from="1578384952382" duration="10116000" />
+      <workItem from="1578442393655" duration="9912000" />
+      <workItem from="1578531990749" duration="4440000" />
+      <workItem from="1578537377218" duration="39000" />
+      <workItem from="1578537432320" duration="174000" />
+      <workItem from="1578537623348" duration="44000" />
+      <workItem from="1578537759650" duration="233000" />
+      <workItem from="1578538010006" duration="223000" />
+      <workItem from="1578538300303" duration="388000" />
+      <workItem from="1578538705624" duration="314000" />
+      <workItem from="1578539125502" duration="86000" />
+      <workItem from="1578539231143" duration="1071000" />
+      <workItem from="1578540326500" duration="1043000" />
+      <workItem from="1578541804338" duration="726000" />
+      <workItem from="1578549432534" duration="4149000" />
+      <workItem from="1578553725590" duration="7449000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="292" y="9" key="#Plugins" timestamp="1578377393455">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="292" y="9" key="#Plugins/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578377393455" />
+    <state x="522" y="9" key="#Scala" timestamp="1578443767959">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="522" y="9" key="#Scala/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578443767959" />
+    <state x="522" y="9" key="#Scala/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578305412966" />
+    <state x="530" y="181" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578555733976">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="530" y="181" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578555733976" />
+    <state x="530" y="181" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578298005313" />
+    <state x="561" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1578558363476">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="561" y="61" key="#com.intellij.ide.util.MemberChooser/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578558363476" />
+    <state x="338" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578551987153">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="338" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578551987153" />
+    <state x="511" y="116" key="FileChooserDialogImpl" timestamp="1578561271853">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="511" y="116" key="FileChooserDialogImpl/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578561271853" />
+    <state x="591" y="328" width="445" height="207" key="Github.CreateGistDialog" timestamp="1578561128069">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="591" y="328" width="445" height="207" key="Github.CreateGistDialog/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578561128069" />
+    <state width="1423" height="200" key="GridCell.Tab.0.bottom" timestamp="1578560816352">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1423" height="200" key="GridCell.Tab.0.bottom/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578560816352" />
+    <state width="1423" height="202" key="GridCell.Tab.0.bottom/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578317760026" />
+    <state width="1423" height="202" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1578325404366" />
+    <state width="1423" height="200" key="GridCell.Tab.0.center" timestamp="1578560816352">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1423" height="200" key="GridCell.Tab.0.center/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578560816352" />
+    <state width="1423" height="202" key="GridCell.Tab.0.center/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578317760026" />
+    <state width="1423" height="202" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1578325404366" />
+    <state width="1423" height="200" key="GridCell.Tab.0.left" timestamp="1578560816352">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1423" height="200" key="GridCell.Tab.0.left/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578560816352" />
+    <state width="1423" height="202" key="GridCell.Tab.0.left/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578317760025" />
+    <state width="1423" height="202" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1578325404366" />
+    <state width="1423" height="200" key="GridCell.Tab.0.right" timestamp="1578560816352">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1423" height="200" key="GridCell.Tab.0.right/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578560816352" />
+    <state width="1423" height="202" key="GridCell.Tab.0.right/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578317760026" />
+    <state width="1423" height="202" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1578325404366" />
+    <state width="1423" height="253" key="GridCell.Tab.1.bottom" timestamp="1578557242701">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1423" height="253" key="GridCell.Tab.1.bottom/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578557242701" />
+    <state width="1423" height="253" key="GridCell.Tab.1.center" timestamp="1578557242701">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1423" height="253" key="GridCell.Tab.1.center/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578557242701" />
+    <state width="1423" height="253" key="GridCell.Tab.1.left" timestamp="1578557242701">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1423" height="253" key="GridCell.Tab.1.left/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578557242701" />
+    <state width="1423" height="253" key="GridCell.Tab.1.right" timestamp="1578557242701">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1423" height="253" key="GridCell.Tab.1.right/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578557242701" />
+    <state x="309" y="67" key="NewModule_or_Project.wizard" timestamp="1578538760790">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="309" y="67" key="NewModule_or_Project.wizard/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578538760790" />
+    <state width="314" height="242" key="RunAnythingAction_Filter_Popup" timestamp="1578305592217">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="314" height="242" key="RunAnythingAction_Filter_Popup/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578305592217" />
+    <state x="128" y="0" key="SettingsEditor" timestamp="1578561228617">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="128" y="0" key="SettingsEditor/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578561228617" />
+    <state x="152" y="0" key="SettingsEditor/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578305596868" />
+    <state x="62" y="61" key="new project wizard" timestamp="1578551825848">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="62" y="61" key="new project wizard/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578551825848" />
+    <state x="62" y="61" key="new project wizard/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578297836713" />
+    <state x="319" y="249" width="885" height="365" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1578385190022">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="319" y="249" width="885" height="365" key="org.intellij.images.editor.actions.BackgroundImageDialog/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578385190022" />
+    <state x="372" y="193" width="840" height="1034" key="run.anything.popup" timestamp="1578305593396">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="372" y="193" width="840" height="1034" key="run.anything.popup/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578305593396" />
+    <state x="378" y="0" width="840" height="862" key="search.everywhere.popup" timestamp="1578556138267">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="378" y="0" width="840" height="862" key="search.everywhere.popup/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578556138267" />
+  </component>
+</project>
