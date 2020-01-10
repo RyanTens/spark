@@ -1,6 +1,6 @@
 package com.tens.project.app
 
-import com.tens.project.bean.UserVisitAction
+import com.tens.project.bean.{CategoryCountInfo, UserVisitAction}
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
@@ -31,7 +31,10 @@ object ProjectApp {
       )
     })
     //    userVisitActionRDD.collect.take(10).foreach(println)
-    CategoryTop10.statCategoryCountTop10(sc,userVisitActionRDD)
+    val categoryCountInfos: Array[CategoryCountInfo] = CategoryTop10.statCategoryCountTop10(sc, userVisitActionRDD)
+//    categoryCountInfos.foreach(println)
+val result: RDD[(Long, List[(String, Int)])] = Top10SessionCount.statCategoryTop10Session(sc, userVisitActionRDD, categoryCountInfos)
+    result.collect.foreach(println)
     sc.stop()
   }
 }
