@@ -4,7 +4,7 @@ import org.apache.spark.util.AccumulatorV2
 
 class MyAccumulator extends AccumulatorV2[Long,Long]{
   //缓存中间值
-  var sum = 0L
+  private var sum = 0L
 
   //判断零值
   override def isZero: Boolean = sum == 0

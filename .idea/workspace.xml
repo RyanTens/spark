@@ -1,7 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b7758ec-fa92-49bf-a53c-cff792bc1bcb" name="Default Changelist" comment="" />
+    <list default="true" id="1b7758ec-fa92-49bf-a53c-cff792bc1bcb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/target/classes/com/tens/project/app/ProjectApp$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/target/classes/com/tens/project/app/ProjectApp$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/target/classes/com/tens/project/app/ProjectApp$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/target/classes/com/tens/project/app/ProjectApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/target/classes/com/tens/project/bean/CategoryCountInfo$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/target/classes/com/tens/project/bean/CategoryCountInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/target/classes/com/tens/project/bean/UserVisitAction$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/target/classes/com/tens/project/bean/UserVisitAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/tens/spark/accumulator/BrodcastDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/META-INF/spark-core.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/WordCount$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/WordCount$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/WordCount$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/WordCount$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/WordCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/agent.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/AccDemo$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/AccDemo$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/AccDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/AccDemo2$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/AccDemo2$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/AccDemo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/AccDemo3$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/AccDemo3$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/AccDemo3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/MyAccumulator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/MyMapAcc$$anonfun$add$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/MyMapAcc$$anonfun$add$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/MyMapAcc$$anonfun$add$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/MyMapAcc$$anonfun$merge$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/MyMapAcc$$anonfun$merge$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/MyMapAcc$$anonfun$merge$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/MyMapAcc$$anonfun$merge$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/MyMapAcc$$anonfun$merge$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/MyMapAcc$$anonfun$merge$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/MyMapAcc$$anonfun$value$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/accumulator/MyMapAcc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/action/Reduce$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/action/Reduce$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/action/Reduce$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/action/Reduce.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/Coalesce$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/Coalesce.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/CreateRDD$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/CreateRDD$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/CreateRDD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/Distinct$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/Distinct$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/Distinct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/Filter$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/Filter$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/Filter$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/Filter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/FlatMap$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/FlatMap$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/FlatMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/Glom$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/Glom$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/Glom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/GroupBy$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/GroupBy$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/GroupBy$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/GroupBy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/Map$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/Map$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/Map.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/MapPartitions$$anonfun$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/MapPartitions$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/MapPartitions$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/MapPartitions$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/MapPartitions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/MapPartitionsWithIndex$$anonfun$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/MapPartitionsWithIndex$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/MapPartitionsWithIndex$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/MapPartitionsWithIndex$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/MapPartitionsWithIndex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/Sample$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/Sample$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/Sample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/SortBy$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/SortBy$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/SortBy$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd/SortBy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/AggregateByKey$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/AggregateByKey$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/AggregateByKey$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/AggregateByKey$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/AggregateByKey$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/AggregateByKey$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/AggregateByKey$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/AggregateByKey$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/AggregateByKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/Cogroup$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/Cogroup$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/Cogroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/CombineByKey$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/CombineByKey$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/CombineByKey$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/CombineByKey$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/CombineByKey$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/CombineByKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/Exam$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/Exam$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/Exam$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/Exam$$anonfun$4$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/Exam$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/Exam$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/Exam$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/Exam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/GroupByKey$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/GroupByKey$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/GroupByKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/PartitionBy$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/PartitionBy$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/PartitionBy$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/PartitionBy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/ReduceByKey$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/ReduceByKey$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/ReduceByKey$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/ReduceByKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/Union$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/Union$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd2/Union.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/JDBCRead$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/JDBCRead$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/JDBCRead$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/JDBCRead$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/JDBCRead.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/JDBCWrite$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/JDBCWrite$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/JDBCWrite$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/JDBCWrite$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/JDBCWrite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/MyPartitioner$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/MyPartitioner$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/MyPartitioner$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/MyPartitioner$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/MyPartitioner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/Search$$anonfun$getMatchedRDD1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/Search$$anonfun$getMatchedRDD2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/Search.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/Search1$$anonfun$matchQuery$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/Search1$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/Search1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/SerDemo$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/SerDemo$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/SerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/SerDemo2$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/SerDemo2$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/SerDemo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/tens/project/acc/CategoryAcc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/tens/project/acc/CategoryAcc.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/com/tens/spark/accumulator/MyAccumulator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/tens/spark/accumulator/MyAccumulator.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +166,20 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="spark" />
@@ -23,6 +194,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\CODE\idea_workspace\spark\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -47,6 +225,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1W0dbY2sBDvAacn11SDwiBVPglz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -54,6 +233,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -67,7 +247,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -213,12 +393,28 @@
       <workItem from="1578540326500" duration="1043000" />
       <workItem from="1578541804338" duration="726000" />
       <workItem from="1578549432534" duration="4149000" />
-      <workItem from="1578553725590" duration="7449000" />
+      <workItem from="1578553725590" duration="8462000" />
+      <workItem from="1578615338129" duration="33000" />
+      <workItem from="1578615641997" duration="131000" />
+      <workItem from="1578615789164" duration="81000" />
+      <workItem from="1578615885741" duration="8479000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1578561430955</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578561430955</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="292" y="9" key="#Plugins" timestamp="1578377393455">
@@ -235,62 +431,70 @@
     </state>
     <state x="530" y="181" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578555733976" />
     <state x="530" y="181" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578298005313" />
-    <state x="561" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1578558363476">
+    <state x="561" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1578561804894">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="561" y="61" key="#com.intellij.ide.util.MemberChooser/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578558363476" />
+    <state x="561" y="61" key="#com.intellij.ide.util.MemberChooser/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578561804894" />
     <state x="338" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578551987153">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="338" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578551987153" />
-    <state x="511" y="116" key="FileChooserDialogImpl" timestamp="1578561271853">
+    <state x="255" y="0" key="CommitChangelistDialog2" timestamp="1578561428357">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="511" y="116" key="FileChooserDialogImpl/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578561271853" />
+    <state x="255" y="0" key="CommitChangelistDialog2/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578561428357" />
+    <state x="511" y="116" key="FileChooserDialogImpl" timestamp="1578617907405">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="511" y="116" key="FileChooserDialogImpl/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578617907405" />
     <state x="591" y="328" width="445" height="207" key="Github.CreateGistDialog" timestamp="1578561128069">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="591" y="328" width="445" height="207" key="Github.CreateGistDialog/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578561128069" />
-    <state width="1423" height="200" key="GridCell.Tab.0.bottom" timestamp="1578560816352">
+    <state x="651" y="301" width="325" height="344" key="Github.ShareDialog" timestamp="1578561489764">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1423" height="200" key="GridCell.Tab.0.bottom/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578560816352" />
+    <state x="651" y="301" width="325" height="344" key="Github.ShareDialog/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578561489764" />
+    <state width="1423" height="253" key="GridCell.Tab.0.bottom" timestamp="1578562220573">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1423" height="253" key="GridCell.Tab.0.bottom/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578562220573" />
     <state width="1423" height="202" key="GridCell.Tab.0.bottom/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578317760026" />
     <state width="1423" height="202" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1578325404366" />
-    <state width="1423" height="200" key="GridCell.Tab.0.center" timestamp="1578560816352">
+    <state width="1423" height="253" key="GridCell.Tab.0.center" timestamp="1578562220573">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1423" height="200" key="GridCell.Tab.0.center/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578560816352" />
+    <state width="1423" height="253" key="GridCell.Tab.0.center/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578562220573" />
     <state width="1423" height="202" key="GridCell.Tab.0.center/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578317760026" />
     <state width="1423" height="202" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1578325404366" />
-    <state width="1423" height="200" key="GridCell.Tab.0.left" timestamp="1578560816352">
+    <state width="1423" height="253" key="GridCell.Tab.0.left" timestamp="1578562220573">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1423" height="200" key="GridCell.Tab.0.left/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578560816352" />
+    <state width="1423" height="253" key="GridCell.Tab.0.left/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578562220573" />
     <state width="1423" height="202" key="GridCell.Tab.0.left/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578317760025" />
     <state width="1423" height="202" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1578325404366" />
-    <state width="1423" height="200" key="GridCell.Tab.0.right" timestamp="1578560816352">
+    <state width="1423" height="253" key="GridCell.Tab.0.right" timestamp="1578562220573">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1423" height="200" key="GridCell.Tab.0.right/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578560816352" />
+    <state width="1423" height="253" key="GridCell.Tab.0.right/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578562220573" />
     <state width="1423" height="202" key="GridCell.Tab.0.right/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578317760026" />
     <state width="1423" height="202" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1578325404366" />
-    <state width="1423" height="253" key="GridCell.Tab.1.bottom" timestamp="1578557242701">
+    <state width="1423" height="253" key="GridCell.Tab.1.bottom" timestamp="1578562220573">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1423" height="253" key="GridCell.Tab.1.bottom/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578557242701" />
-    <state width="1423" height="253" key="GridCell.Tab.1.center" timestamp="1578557242701">
+    <state width="1423" height="253" key="GridCell.Tab.1.bottom/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578562220573" />
+    <state width="1423" height="253" key="GridCell.Tab.1.center" timestamp="1578562220573">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1423" height="253" key="GridCell.Tab.1.center/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578557242701" />
-    <state width="1423" height="253" key="GridCell.Tab.1.left" timestamp="1578557242701">
+    <state width="1423" height="253" key="GridCell.Tab.1.center/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578562220573" />
+    <state width="1423" height="253" key="GridCell.Tab.1.left" timestamp="1578562220573">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1423" height="253" key="GridCell.Tab.1.left/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578557242701" />
-    <state width="1423" height="253" key="GridCell.Tab.1.right" timestamp="1578557242701">
+    <state width="1423" height="253" key="GridCell.Tab.1.left/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578562220573" />
+    <state width="1423" height="253" key="GridCell.Tab.1.right" timestamp="1578562220573">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1423" height="253" key="GridCell.Tab.1.right/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578557242701" />
+    <state width="1423" height="253" key="GridCell.Tab.1.right/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578562220573" />
     <state x="309" y="67" key="NewModule_or_Project.wizard" timestamp="1578538760790">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
@@ -299,10 +503,10 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="314" height="242" key="RunAnythingAction_Filter_Popup/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578305592217" />
-    <state x="128" y="0" key="SettingsEditor" timestamp="1578561228617">
+    <state x="128" y="0" key="SettingsEditor" timestamp="1578618042545">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="128" y="0" key="SettingsEditor/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578561228617" />
+    <state x="128" y="0" key="SettingsEditor/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578618042545" />
     <state x="152" y="0" key="SettingsEditor/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578305596868" />
     <state x="62" y="61" key="new project wizard" timestamp="1578551825848">
       <screen x="62" y="0" width="1474" height="864" />
