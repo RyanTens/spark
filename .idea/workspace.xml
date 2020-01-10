@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b7758ec-fa92-49bf-a53c-cff792bc1bcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/tens/project/app/Top10SessionCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/tens/project/app/PageConversionApp.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spark-core-project/target/classes/com/tens/project/app/ProjectApp$$anonfun$1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spark-core-project/target/classes/com/tens/project/app/ProjectApp$$anonfun$main$1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spark-core-project/target/classes/com/tens/project/app/ProjectApp$.class" afterDir="false" />
@@ -158,7 +158,7 @@
       <change beforePath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/tens/project/acc/CategoryAcc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/tens/project/acc/CategoryAcc.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/tens/project/app/CategoryTop10.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/tens/project/app/CategoryTop10.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/tens/project/app/ProjectApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/tens/project/app/ProjectApp.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/com/tens/spark/accumulator/BrodcastDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/tens/spark/accumulator/BrodcastDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/tens/project/app/Top10SessionCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/tens/project/app/Top10SessionCount.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -403,7 +403,7 @@
       <workItem from="1578615338129" duration="33000" />
       <workItem from="1578615641997" duration="131000" />
       <workItem from="1578615789164" duration="81000" />
-      <workItem from="1578615885741" duration="22281000" />
+      <workItem from="1578615885741" duration="27870000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1578561430955</created>
@@ -419,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578627259639</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1578657096989</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578657096989</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,23 +446,27 @@
     </state>
     <state x="522" y="9" key="#Scala/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578443767959" />
     <state x="522" y="9" key="#Scala/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578305412966" />
-    <state x="530" y="181" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578651905361">
+    <state x="530" y="181" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578662620024">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="530" y="181" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578651905361" />
+    <state x="530" y="181" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578662620024" />
     <state x="530" y="181" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578298005313" />
-    <state x="561" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1578561804894">
+    <state x="561" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1578657850896">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="561" y="61" key="#com.intellij.ide.util.MemberChooser/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578561804894" />
+    <state x="561" y="61" key="#com.intellij.ide.util.MemberChooser/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578657850896" />
     <state x="338" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578551987153">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="338" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578551987153" />
-    <state x="255" y="0" key="CommitChangelistDialog2" timestamp="1578627257411">
+    <state x="467" y="123" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578657308134">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="255" y="0" key="CommitChangelistDialog2/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578627257411" />
+    <state x="467" y="123" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578657308134" />
+    <state x="255" y="0" key="CommitChangelistDialog2" timestamp="1578657094572">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="255" y="0" key="CommitChangelistDialog2/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578657094572" />
     <state x="511" y="116" key="FileChooserDialogImpl" timestamp="1578650620213">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
@@ -468,28 +479,28 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="651" y="301" width="325" height="344" key="Github.ShareDialog/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578561489764" />
-    <state width="1423" height="200" key="GridCell.Tab.0.bottom" timestamp="1578653177049">
+    <state width="1423" height="200" key="GridCell.Tab.0.bottom" timestamp="1578662405633">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1423" height="200" key="GridCell.Tab.0.bottom/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578653177049" />
+    <state width="1423" height="200" key="GridCell.Tab.0.bottom/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578662405633" />
     <state width="1423" height="202" key="GridCell.Tab.0.bottom/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578317760026" />
     <state width="1423" height="202" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1578325404366" />
-    <state width="1423" height="200" key="GridCell.Tab.0.center" timestamp="1578653177049">
+    <state width="1423" height="200" key="GridCell.Tab.0.center" timestamp="1578662405633">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1423" height="200" key="GridCell.Tab.0.center/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578653177049" />
+    <state width="1423" height="200" key="GridCell.Tab.0.center/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578662405633" />
     <state width="1423" height="202" key="GridCell.Tab.0.center/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578317760026" />
     <state width="1423" height="202" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1578325404366" />
-    <state width="1423" height="200" key="GridCell.Tab.0.left" timestamp="1578653177049">
+    <state width="1423" height="200" key="GridCell.Tab.0.left" timestamp="1578662405633">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1423" height="200" key="GridCell.Tab.0.left/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578653177049" />
+    <state width="1423" height="200" key="GridCell.Tab.0.left/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578662405633" />
     <state width="1423" height="202" key="GridCell.Tab.0.left/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578317760025" />
     <state width="1423" height="202" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1578325404366" />
-    <state width="1423" height="200" key="GridCell.Tab.0.right" timestamp="1578653177049">
+    <state width="1423" height="200" key="GridCell.Tab.0.right" timestamp="1578662405633">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1423" height="200" key="GridCell.Tab.0.right/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578653177049" />
+    <state width="1423" height="200" key="GridCell.Tab.0.right/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578662405633" />
     <state width="1423" height="202" key="GridCell.Tab.0.right/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578317760026" />
     <state width="1423" height="202" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1578325404366" />
     <state width="1423" height="253" key="GridCell.Tab.1.bottom" timestamp="1578643348229">
@@ -521,6 +532,10 @@
     </state>
     <state x="128" y="0" key="SettingsEditor/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578651479923" />
     <state x="152" y="0" key="SettingsEditor/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578305596868" />
+    <state x="292" y="101" key="Vcs.Push.Dialog.v2" timestamp="1578657146788">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="292" y="101" key="Vcs.Push.Dialog.v2/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578657146788" />
     <state x="62" y="61" key="new project wizard" timestamp="1578551825848">
       <screen x="62" y="0" width="1474" height="864" />
     </state>

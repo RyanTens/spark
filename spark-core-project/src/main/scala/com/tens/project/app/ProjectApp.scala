@@ -30,11 +30,9 @@ object ProjectApp {
         splits(12).toLong
       )
     })
-    //    userVisitActionRDD.collect.take(10).foreach(println)
-    val categoryCountInfos: Array[CategoryCountInfo] = CategoryTop10.statCategoryCountTop10(sc, userVisitActionRDD)
-//    categoryCountInfos.foreach(println)
-val result: RDD[(Long, List[(String, Int)])] = Top10SessionCount.statCategoryTop10Session(sc, userVisitActionRDD, categoryCountInfos)
-    result.collect.foreach(println)
-    sc.stop()
+    val Top10 = CategoryTop10.statCategoryTop10(sc, userVisitActionRDD)
+//    Top10.foreach(println)
+    val top10Session: RDD[(Long, List[(String, Int)])] = Top10SessionCount.calcCategorySessionTop10(sc, Top10, userVisitActionRDD)
+    top10Session.collect.foreach(println)
   }
 }
