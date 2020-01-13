@@ -30,9 +30,14 @@ object ProjectApp {
         splits(12).toLong
       )
     })
-    val Top10 = CategoryTop10.statCategoryTop10(sc, userVisitActionRDD)
+//    val Top10 = CategoryTop10.statCategoryTop10(sc, userVisitActionRDD)
 //    Top10.foreach(println)
-    val top10Session: RDD[(Long, List[(String, Int)])] = Top10SessionCount.calcCategorySessionTop10(sc, Top10, userVisitActionRDD)
-    top10Session.collect.foreach(println)
+//    val top10Session = Top10SessionCount.calcCategorySessionTop10_2(sc, Top10, userVisitActionRDD)
+//    top10Session.collect.foreach(println)
+
+    val pageJumpRate: collection.Map[String, String] = PageConversionApp.calcPageConversion(sc, userVisitActionRDD, "1,2,3,4,5,6,7")
+    pageJumpRate.foreach(println)
+
+
   }
 }
