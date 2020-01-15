@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b7758ec-fa92-49bf-a53c-cff792bc1bcb" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/mock-data/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/tens/mock/bean/CityInfo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/tens/mock/realtime/MockRealtime.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/tens/mock/utils/RandomNumUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/tens/mock/utils/RandomOptions.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spark-core-project/target/classes/com/tens/project/app/ProjectApp$$anonfun$1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spark-core-project/target/classes/com/tens/project/app/ProjectApp$$anonfun$main$1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spark-core-project/target/classes/com/tens/project/app/ProjectApp$.class" afterDir="false" />
@@ -152,16 +157,17 @@
       <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/SerDemo2$.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spark-core/target/classes/com/tens/spark/rdd3/SerDemo2.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spark-core/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/tens/sparkstreaming/kafka/WordCount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/tens/sparkstreaming/resources/MyReceiver.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/tens/sparkstreaming/resources/MyReceiverDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/tens/sparkstreaming/resources/WordCountDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/tens/realtime/app/App.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/tens/realtime/bean/AdsInfo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/tens/realtime/util/MyKafkaUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/tens/sparkstreaming/kafka/WordCount2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/tens/sparkstreaming/window/WordCountWindow.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/tens/sparkstreaming/window/WordCountWindow2.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-streaming/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark-streaming/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/tens/sparkstreaming/SparkStramingWordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/tens/sparkstreaming/resources/SparkStramingWordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,39 +279,13 @@
       <recent name="E:\CODE\idea_workspace\spark\spark-core\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WordCount (1)">
-    <configuration name="CreateRDD" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.tens.spark.rdd.CreateRDD" />
-      <module name="spark-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tens.spark.rdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WordCountWindow2">
     <configuration name="MyReceiverDemo" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.tens.sparkstreaming.resources.MyReceiverDemo" />
       <module name="Spark-Streaming" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tens.sparkstreaming.resources.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SparkStramingWordCount (1)" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.tens.sparkstreaming.SparkStramingWordCount" />
-      <module name="Spark-Streaming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tens.sparkstreaming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,12 +306,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCountDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.tens.sparkstreaming.WordCountDemo" />
+    <configuration name="WordCount2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.tens.sparkstreaming.kafka.WordCount2" />
       <module name="Spark-Streaming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tens.sparkstreaming.*" />
+          <option name="PATTERN" value="com.tens.sparkstreaming.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCountWindow" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.tens.sparkstreaming.window.WordCountWindow" />
+      <module name="Spark-Streaming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tens.sparkstreaming.window.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCountWindow2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.tens.sparkstreaming.window.WordCountWindow2" />
+      <module name="Spark-Streaming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tens.sparkstreaming.window.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,11 +347,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordCountWindow2" />
+        <item itemvalue="Application.WordCountWindow" />
+        <item itemvalue="Application.WordCount2" />
         <item itemvalue="Application.WordCount (1)" />
         <item itemvalue="Application.MyReceiverDemo" />
-        <item itemvalue="Application.WordCountDemo" />
-        <item itemvalue="Application.SparkStramingWordCount (1)" />
-        <item itemvalue="Application.CreateRDD" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +416,8 @@
       <workItem from="1578787601420" duration="8238000" />
       <workItem from="1578796501399" duration="3383000" />
       <workItem from="1578874232332" duration="6669000" />
-      <workItem from="1578901889238" duration="11702000" />
+      <workItem from="1578901889238" duration="12366000" />
+      <workItem from="1579047009824" duration="16034000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1578561430955</created>
@@ -447,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578901434265</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1578920911526</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578920911526</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,10 +485,10 @@
     </state>
     <state x="522" y="9" key="#Scala/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578443767959" />
     <state x="522" y="9" key="#Scala/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578305412966" />
-    <state x="530" y="181" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578662620024">
+    <state x="530" y="181" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579086984845">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="530" y="181" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578662620024" />
+    <state x="530" y="181" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1579086984845" />
     <state x="530" y="181" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578298005313" />
     <state x="254" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578901755428">
       <screen x="62" y="0" width="1474" height="864" />
@@ -496,10 +510,10 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="467" y="123" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578657308134" />
-    <state x="255" y="0" key="CommitChangelistDialog2" timestamp="1578901431195">
+    <state x="255" y="0" key="CommitChangelistDialog2" timestamp="1578920909884">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="255" y="0" key="CommitChangelistDialog2/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578901431195" />
+    <state x="255" y="0" key="CommitChangelistDialog2/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578920909884" />
     <state x="511" y="116" key="FileChooserDialogImpl" timestamp="1578902044032">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
@@ -512,28 +526,28 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="651" y="301" width="325" height="344" key="Github.ShareDialog/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578561489764" />
-    <state width="1423" height="200" key="GridCell.Tab.0.bottom" timestamp="1578920869159">
+    <state width="1423" height="200" key="GridCell.Tab.0.bottom" timestamp="1579073592899">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1423" height="200" key="GridCell.Tab.0.bottom/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578920869159" />
+    <state width="1423" height="200" key="GridCell.Tab.0.bottom/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1579073592899" />
     <state width="1423" height="202" key="GridCell.Tab.0.bottom/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578317760026" />
     <state width="1423" height="202" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1578325404366" />
-    <state width="1423" height="200" key="GridCell.Tab.0.center" timestamp="1578920869159">
+    <state width="1423" height="200" key="GridCell.Tab.0.center" timestamp="1579073592899">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1423" height="200" key="GridCell.Tab.0.center/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578920869159" />
+    <state width="1423" height="200" key="GridCell.Tab.0.center/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1579073592899" />
     <state width="1423" height="202" key="GridCell.Tab.0.center/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578317760026" />
     <state width="1423" height="202" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1578325404366" />
-    <state width="1423" height="200" key="GridCell.Tab.0.left" timestamp="1578920869159">
+    <state width="1423" height="200" key="GridCell.Tab.0.left" timestamp="1579073592899">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1423" height="200" key="GridCell.Tab.0.left/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578920869159" />
+    <state width="1423" height="200" key="GridCell.Tab.0.left/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1579073592899" />
     <state width="1423" height="202" key="GridCell.Tab.0.left/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578317760025" />
     <state width="1423" height="202" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1578325404366" />
-    <state width="1423" height="200" key="GridCell.Tab.0.right" timestamp="1578920869159">
+    <state width="1423" height="200" key="GridCell.Tab.0.right" timestamp="1579073592899">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1423" height="200" key="GridCell.Tab.0.right/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578920869159" />
+    <state width="1423" height="200" key="GridCell.Tab.0.right/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1579073592899" />
     <state width="1423" height="202" key="GridCell.Tab.0.right/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578317760026" />
     <state width="1423" height="202" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1578325404366" />
     <state width="1423" height="253" key="GridCell.Tab.1.bottom" timestamp="1578663001221">
@@ -565,14 +579,14 @@
     </state>
     <state x="128" y="0" key="SettingsEditor/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578901641076" />
     <state x="152" y="0" key="SettingsEditor/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578305596868" />
-    <state x="292" y="101" key="Vcs.Push.Dialog.v2" timestamp="1578657146788">
+    <state x="292" y="101" key="Vcs.Push.Dialog.v2" timestamp="1578920931141">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="292" y="101" key="Vcs.Push.Dialog.v2/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578657146788" />
-    <state x="62" y="61" key="new project wizard" timestamp="1578900395657">
+    <state x="292" y="101" key="Vcs.Push.Dialog.v2/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578920931141" />
+    <state x="62" y="61" key="new project wizard" timestamp="1579084283504">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="62" y="61" key="new project wizard/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1578900395657" />
+    <state x="62" y="61" key="new project wizard/62.0.1474.864/1920.0.1920.1080@62.0.1474.864" timestamp="1579084283504" />
     <state x="62" y="61" key="new project wizard/62.0.1474.864/1920.1.1920.1080@62.0.1474.864" timestamp="1578297836713" />
     <state x="319" y="249" width="885" height="365" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1578385190022">
       <screen x="62" y="0" width="1474" height="864" />
